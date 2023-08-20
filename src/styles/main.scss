@@ -1,6 +1,10 @@
+@import "reset";
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/strategic-agency";
 
 body {
   background: $c-gray;

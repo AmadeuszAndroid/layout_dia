@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  gap: 48px;
+
+  &__logo {
+    margin-top: 48px;
+    margin-right: 241px;
+    width: 46px;
+    height: 28px;
+  }
+
+  @include nav-link;
+}
